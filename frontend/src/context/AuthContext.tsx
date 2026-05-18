@@ -8,7 +8,6 @@ import {
   ReactNode,
 } from 'react';
 import { authService } from '@/services/auth.service';
-import { getErrorMessage } from '@/services/api';
 import { User } from '@/types';
 
 interface AuthContextValue {
