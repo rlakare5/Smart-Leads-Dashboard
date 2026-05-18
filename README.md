@@ -108,11 +108,6 @@ CLIENT_URL=http://localhost:5173
 ```env
 VITE_API_URL=http://localhost:5000/api
 ```
-
-### 3. Start MongoDB
-
-See **[MONGODB_SETUP.md](./MONGODB_SETUP.md)** for detailed setup and queries.
-
 ```bash
 docker run -d --name smart-leads-mongo -p 27017:27017 mongo:7
 ```
